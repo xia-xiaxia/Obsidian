@@ -51,4 +51,4 @@ struct stat;
 ## 系统调用
 
 ### fork
-fork是
+fork是开一个新的进程
