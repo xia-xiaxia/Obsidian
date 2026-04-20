@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Obsidian 本地工作区状态（通常不需要同步）
+.obsidian/workspace.json
+
+# 如果 users/ 或 Users/ 下是本机私有内容，不想进仓库
+users/
+Users/
+
+# 可选：如果你不想把整个 Obsidian 配置和插件都提交，放开下面这行
+# .obsidian//
