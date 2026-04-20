@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Users/xiatian/Library/Application.md",
+                "file": "xv6-labs/xv6-user.h.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application"
+              "title": "xv6-user.h"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Users/xiatian/Library/Application.md",
+                "file": "xv6-labs/xv6-user.h.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Application 的大纲"
+              "title": "xv6-user.h 的大纲"
             }
           },
           {
@@ -197,6 +197,7 @@
   },
   "active": "50ea3ecee31bd523",
   "lastOpenFiles": [
+    "Users/xiatian/Library/Application.md",
     "xv6-labs/xv6-user.h.md",
     "引导扇区.md",
     "未命名.canvas",
@@ -204,7 +205,6 @@
     "xv6-labs/xv6-labs-1.md",
     "作业.md",
     "xv6-labs",
-    "Users/xiatian/Library/Application.md",
     "Users/xiatian/Library",
     "Users/xiatian",
     "Users"
