@@ -229,11 +229,13 @@ exit(0);
 ./grade-lab-util sleep
 ```
 
-![image-20260409212522986](/Users/xiatian/Library/Application Support/typora-user-images/image-20260409212522986.png)
-
 最终得倒上述结果。
 
 ### pingpong
 
 首先我们需要了解只是需要实现这个pingpong功能，而不是一个命令行驱动的命令，实际上系统内自会调用。
-同时，该实验只是需要我们
+	同时，该实验只是需要我们，使用 UNIX 系统调用，通过一对管道（每个方向一个管道）在两个进程之间“pingpong”传输一个字节。父进程应向子进程发送一个字节；子进程应打印“<pid>: received ping”，其中 <pid> 是其进程 ID，并将该字节通过管道写入父进程，然后退出；父进程应从子进程读取该字节，打印“<pid>: received pong”，然后退出。
+所以我们需要开两个管道，因为pipe是单向的，不能一根管道同时优雅地完成“来回通信”。
+代码如下：
+
+
