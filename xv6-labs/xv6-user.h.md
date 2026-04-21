@@ -476,7 +476,7 @@ int close(int fd);
 ```c
 int kill(int pid);
 ```
-
+de
 #### 作用
 
 向指定 pid 的进程发送“终止请求”。
