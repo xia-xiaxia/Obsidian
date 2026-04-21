@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "xv6-labs/xv6-labs-1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,12 +197,14 @@
   },
   "active": "50ea3ecee31bd523",
   "lastOpenFiles": [
-    "Pasted image 20260410160441.png",
-    "xv6-labs/xv6-labs-1.md",
-    "Users/xiatian/Library/Application.md",
     "xv6-labs/xv6-user.h.md",
+    "未命名.base",
     "未命名.canvas",
     "未命名 1.canvas",
+    "xv6-labs/xv6-labs-1.md",
+    "Pasted image 20260421105428.png",
+    "Pasted image 20260410160441.png",
+    "Users/xiatian/Library/Application.md",
     "引导扇区.md",
     "作业.md",
     "xv6-labs",
